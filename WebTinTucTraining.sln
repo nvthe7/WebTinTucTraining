@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTinTucTraining", "WebTinTucTraining\WebTinTucTraining.csproj", "{1CF8695A-57F2-4024-8208-3E652A225AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Web", "1.Web", "{10F59FFE-3261-4E12-96E1-52A0441A2E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{31CD7834-12C5-42C1-B0F0-C12FF3DE0134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data", "3.Data", "{DEC20BC2-79CC-4364-8811-5D8A8D537763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Cross", "4.Cross", "{28641475-D076-4800-ADAF-3DE2D5CE3A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF8695A-57F2-4024-8208-3E652A225AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF8695A-57F2-4024-8208-3E652A225AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF8695A-57F2-4024-8208-3E652A225AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF8695A-57F2-4024-8208-3E652A225AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CF8695A-57F2-4024-8208-3E652A225AE9} = {10F59FFE-3261-4E12-96E1-52A0441A2E1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784CE121-0030-4154-9F14-F83F9AAD0967}
+	EndGlobalSection
+EndGlobal
