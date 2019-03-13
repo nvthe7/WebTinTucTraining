@@ -12,10 +12,12 @@ namespace WebTinTucTraining.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Xin chào các bạn";
-            var model = new HelloModel();
             ViewData["Xinchao"] = "Xin chào :v";
+
+            var model = new HelloModel();
             model.FirstName = "Thế";
             model.LastName = "Nguyễn";
+
             return View(model);
         }
     }
