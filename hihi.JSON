@@ -1,0 +1,155 @@
+[
+  {
+    "id_employee": 1,
+    "employee_name": "Thế",
+    "employee_address": "Nghệ An",
+    "department": [
+      {
+        "id_department": 1,
+        "department_name": "Hà Nội",
+        "project": [
+          {
+            "id_project": 1,
+            "project_name": "web bán hàng",
+            "duration": 10,
+            "child": [
+              {
+                "id_child": 1,
+                "child_name": "Bé Tú",
+                "works_on": [
+                  {
+                    "hours": 8
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id_department": 2,
+        "department_name": "Đà Nẵng",
+        "project": [
+          {
+            "id_project": 2,
+            "project_name": "game pikachu",
+            "duration": 6,
+            "child": [
+              {
+                "id_child": 1,
+                "child_name": "Bé Tú",
+                "works_on": [
+                  {
+                    "hours": 7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_employee": 2,
+    "employee_name": "Nam",
+    "employee_address": "Nam Định",
+    "department": [
+      {
+        "id_department": 1,
+        "department_name": "Hà Nội",
+        "project": [
+          {
+            "id_project": 1,
+            "project_name": "web bán hàng",
+            "duration": 10,
+            "child": [
+              {
+                "id_child": 2,
+                "child_name": "Bé Lan",
+                "works_on": [
+                  {
+                    "hours": 8
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id_department": 2,
+        "department_name": "Đà Nẵng",
+        "project": [
+          {
+            "id_project": 2,
+            "project_name": "game pikachu",
+            "duration": 6,
+            "child": [
+              {
+                "id_child": 2,
+                "child_name": "Bé Lan",
+                "works_on": [
+                  {
+                    "hours": 9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_employee": 3,
+    "employee_name": "Bảo",
+    "employee_address": "Hà Nội",
+    "department": [
+      {
+        "id_department": 2,
+        "department_name": "Đà Nẵng",
+        "project": [
+          {
+            "id_project": 2,
+            "project_name": "game pikachu",
+            "duration": 6,
+            "child": [
+              {
+                "id_child": 3,
+                "child_name": "Bé Công",
+                "works_on": [
+                  {
+                    "hours": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id_department": 3,
+        "department_name": "Hồ Chí Minh",
+        "project": [
+          {
+            "id_project": 3,
+            "project_name": "web mxh",
+            "duration": 12,
+            "child": [
+              {
+                "id_child": 3,
+                "child_name": "Bé Công",
+                "works_on": [
+                  {
+                    "hours": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
